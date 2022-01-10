@@ -1,0 +1,36 @@
+/* Write your code here. */
+.bg-cont {
+  height: 100vh;
+  background-color: #0f172a;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 100px;
+  width: 100px;
+}
+h1 {
+  text-align: center;
+  color: #f8fafc;
+}
+.img-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (min-height: 768px) {
+  .bg-cont {
+    width: 100vw;
+  }
+  .img {
+    height: 130px;
+    width: 130px;
+  }
+  h1 {
+    font-size: 40px;
+    color: #f8fafc;
+  }
+}
