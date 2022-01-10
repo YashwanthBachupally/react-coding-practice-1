@@ -15,12 +15,14 @@
 h1 {
   text-align: center;
   color: #f8fafc;
+  font-size: 22px;
 }
 .img-cont {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 @media (min-height: 768px) {
   .bg-cont {
     width: 100vw;
